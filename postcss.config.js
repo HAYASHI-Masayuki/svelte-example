@@ -6,6 +6,7 @@ export default {
       content: [
         './src/**/*.svelte',
       ],
+      safelist: [/^svelte-/],
     },
   },
 }
