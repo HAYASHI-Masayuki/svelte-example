@@ -1,6 +1,14 @@
 @tailwind components;
 @tailwind utilities;
 
+$base-margin: 0.25rem;
+
+@for $i from 1 through 100 {
+  .mm-#{$i} {
+    margin: $base-margin * $i;
+  }
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

@@ -5,6 +5,6 @@
   }
 </script>
 
-<button on:click={increment}>
+<button class="mm-10" on:click={increment}>
   count is {count}
 </button>
