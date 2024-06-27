@@ -6,7 +6,7 @@ export default {
       content: [
         './src/**/*.svelte',
       ],
-      safelist: [/^svelte-/],
+      safelist: [/^svelte-/, /^s-[0-9A-Za-z_-]{12}$/],
     },
   },
 }
